@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    box-sizing: border-box;
+    background-image: linear-gradient(to right,#0ec92a,#338436,#0ec92a);
+    overflow: hidden;
+}
+
+#div-border{
+    margin: auto;
+    top: 50px;
+    height: 455px;
+    width: 990px;
+    align-items: center;
+    border-style: dashed;
+    margin-bottom: 40px;
+    background-color: #4caf50;
+    border-color:#d2d1d6;
+    
+}
+#divcontainer{
+    display: block;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    padding-bottom: 90px;
+    width: 990px;
+    background-color: #63bb67;
+    border-radius: 7px;
+}
+h1{
+    font-size: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p{
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #ffffff;
+    }
+#p2{
+font-size: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.result{
+    overflow: auto;
+    width: 990px;
+    height: 160px ;
+    color: white;
+    
+
+}
+
+input::-webkit-file-upload-button{
+    color: white;
+    background-color:#19e30e;
+    border-radius:5px;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input::-webkit-file-upload-button:hover{
+    background-color:#0f5311;
+}
+
+
+
+
+#fileupload{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 440px;
+    display: flex;
+    
+}
+#upload-button{ 
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 14px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(22, 112, 22);
+}
+#upload-button:hover{
+    background-color: rgb(19, 149, 7);
+}
+img{
+    align-items: center ;
+    padding-left: 195px;
+    transform: translate(100%, 10%);
+}
