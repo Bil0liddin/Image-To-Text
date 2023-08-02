@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 
 }
 body{
@@ -40,6 +41,7 @@ h1{
     display: block;
     text-align: center;
     margin-bottom: 40px;
+    line-height: 80px;
 }
 
 p{
@@ -106,4 +108,13 @@ img{
     align-items: center ;
     padding-left: 195px;
     transform: translate(100%, 10%);
+}
+
+@media screen and (max-width: 600px)
+ {
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+        align-items: center;
+    }
 }
