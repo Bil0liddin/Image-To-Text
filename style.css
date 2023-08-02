@@ -115,6 +115,6 @@ img{
     h1{
         font-size: 36px;
         line-height: 50px;
-        align-items: center;
+        text-align: center;
     }
 }
