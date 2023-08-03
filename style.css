@@ -57,13 +57,10 @@ font-size: 20px;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .result{
-    overflow-y: auto;
     overflow: auto;
     width: 990px;
     height: 160px ;
     color: white;
-    
-
 }
 
 input::-webkit-file-upload-button{
@@ -74,6 +71,7 @@ input::-webkit-file-upload-button{
     padding: 15px;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
 }
 input::-webkit-file-upload-button:hover{
     background-color:#0f5311;
