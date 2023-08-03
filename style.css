@@ -57,6 +57,7 @@ font-size: 20px;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .result{
+    overflow-y: auto;
     overflow: auto;
     width: 990px;
     height: 160px ;
@@ -77,6 +78,11 @@ input::-webkit-file-upload-button{
 input::-webkit-file-upload-button:hover{
     background-color:#0f5311;
 }
+input::-webkit-file-upload-button:active {
+        background-color: #0f7c05;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
 
 
 
@@ -100,10 +106,22 @@ input::-webkit-file-upload-button:hover{
     border-radius: 5px;
     border: none;
     background-color: rgb(22, 112, 22);
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
 }
+
 #upload-button:hover{
     background-color: rgb(19, 149, 7);
 }
+#upload-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #079605;
+    transform: translateY(4px);
+  }
+
 img{
     align-items: center ;
     padding-left: 195px;
